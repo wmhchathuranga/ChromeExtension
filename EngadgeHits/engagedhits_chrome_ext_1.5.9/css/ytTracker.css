@@ -1,0 +1,215 @@
+.eh-video-found {
+    border: 5px solid red;
+    border-radius: 3px;
+    padding: 10px;
+    position: relative;
+}
+
+@-webkit-keyframes eh-video-found-animation {
+    0%, 49% {
+        background-color: #4CAF50;
+    }
+    50%, 100% {
+        background-color: #ff0000;
+    }
+}
+.eh-danger-text{
+    color:#ff0000;
+    font-weight: 800;
+}
+.eh-task-status {
+    margin-bottom: 15px;
+    border: 2px solid #136BA7;
+    border-radius: 3px;
+    padding: 5px;
+    font-family: 'Open Sans', 'Arial';
+}
+
+.eh-task-header {
+    padding-bottom: 5px;
+    text-align: center;
+    border-bottom: 1px solid #dedede;
+}
+
+.eh-task-header img {
+    width: 100px;
+}
+
+.eh-task {
+    padding: 15px 0px;
+}
+
+.eh-task > div {
+    float: left;
+}
+
+.eh-task:after {
+    content: ' ';
+    clear: both; 
+    display:block;
+}
+
+.eh-task-text {
+    font-size: 16px;
+    line-height: 36px;
+    width: calc(100% - 45px);
+}
+
+.eh-ext-banner {
+    font-size: 12px;
+}
+
+.eh-task-status-icon {
+    color: #ccc;
+    font-size: 30px;
+    width: 45px;
+    text-align: center;
+}
+
+.eh-task-completed .eh-task-status-icon {
+    color: #0dd157;
+}
+
+.eh-task-info {
+    font-size: 13px;
+    margin-left: 45px;
+    clear: both;
+    width: calc(100% - 45px);
+}
+
+.eh-task-info.eh-time-left {
+    font-size: 16px;
+    font-weight: 600;
+    color: #309a38;
+}
+
+.eh-task-info.eh-time-left.few-sec-left {
+    color: #fb4143;
+}
+
+.eh-task-status .commentInfo input {
+    width: 90%;
+    padding: 10px;
+    font-size: 1.35rem;
+    border-radius: 3px;
+    border: 1px solid #dedede;
+}
+
+.eh-task-status .commentInfo button {
+    padding: 8px 15px;
+    background: #2089d0;
+    color: #fff;
+    border-radius: 4px;
+    border: 0;
+    font-size: 13px;
+    font-weight: 400;
+    text-decoration: none;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+#primary.ytd-watch-flexy #subscribe-button,
+#primary.ytd-watch-flexy #comments ytd-comment-simplebox-renderer {
+    position: relative;
+}
+
+/* required to avoid skip ad message getting cropped inside player area */
+.html5-video-player.ad-showing {
+    overflow: initial;
+}
+
+.eh-yt-highlight {
+    position: absolute;
+    top: 40px;
+    left: -35px;
+    z-index: 100000;
+}
+
+.eh-yt-highlight#likeBtnHighlight {
+    left: -90px;
+}
+
+.eh-yt-highlight#dislikeBtnHighlight {
+    left: -34px;
+}
+
+.eh-yt-highlight#subscribeBtnHighlight {
+    width: 350px;
+    left: -115px;
+}
+
+.eh-yt-highlight#postCommentHighlight {
+    left: 110px;
+    top: 25px;
+}
+
+.eh-yt-highlight#postReplyHighlight {
+    left: -134px;
+    top: 40px;
+}
+
+.eh-yt-highlight#likeCommentHighlight {
+    left: -80px;
+    top: 40px;
+}
+
+ytd-item-section-renderer.hidden-comments#sections {
+    opacity:0;
+    margin-left:-4000px;
+}
+
+.eh-yt-highlight#clickVidHighlight {
+    top: 155px;
+    left: calc(50% - 100px);
+}
+
+.eh-yt-highlight#skipAdHighlight {
+    left: auto;
+    top: auto;
+    bottom: -15px;
+    right: -15px;
+    box-shadow: none !important;
+    text-shadow: none;
+}
+
+.eh-yt-highlight .eh-arrow {
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    color: red;
+    -webkit-animation: eh-yt-highlight-arrow-animation 1s infinite;  /* Safari 4+ */
+    -moz-animation: eh-yt-highlight-arrow-animation 1s infinite;  /* Fx 5+ */
+    -o-animation: eh-yt-highlight-arrow-animation 1s infinite;  /* Opera 12+ */
+    animation: eh-yt-highlight-arrow-animation 1s infinite;
+}
+
+.eh-yt-highlight .eh-text {
+    padding: 5px;
+    background-color: red;
+    border-radius: 3px;
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: -2px;
+    -webkit-animation: eh-yt-highlight-text-animation 1s infinite;  /* Safari 4+ */
+    -moz-animation: eh-yt-highlight-text-animation 1s infinite;  /* Fx 5+ */
+    -o-animation: eh-yt-highlight-text-animation 1s infinite;  /* Opera 12+ */
+    animation: eh-yt-highlight-text-animation 1s infinite;
+}
+
+@-webkit-keyframes eh-yt-highlight-arrow-animation {
+    0%, 49% {
+        color: #4CAF50;
+    }
+    50%, 100% {
+        color: #ff0000;
+    }
+}
+
+@-webkit-keyframes eh-yt-highlight-text-animation {
+    0%, 49% {
+        background-color: #4CAF50;
+    }
+    50%, 100% {
+        background-color: #ff0000;
+    }
+}

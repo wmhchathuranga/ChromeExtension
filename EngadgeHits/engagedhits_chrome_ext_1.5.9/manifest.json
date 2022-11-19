@@ -1,0 +1,221 @@
+{
+    "name": "__MSG_extName__",
+    "short_name": "__MSG_extShortName__",
+    "description": "__MSG_extDesc__",
+    "version": "1.5.9",
+    "default_locale": "en",
+    "content_security_policy": "script-src 'self' https://www.gstatic.com https://www.google.com/recaptcha/api.js; object-src 'self'",
+    "icons": {
+        "256": "/images/icons/256.png",
+        "128": "/images/icons/128.png",
+        "32": "/images/icons/32.png"
+    },
+    "browser_action": {
+        "default_icon": "/images/icons/128.png",
+        "default_title": "__MSG_extShortName__",
+        "default_popup": "/html/browserActionPopup.html"
+    },
+    "manifest_version": 2,
+    "update_url": "https://engagedhits.com/extension/updates",
+    "key": "mofmjlemkconpdjmgbgbcpbnlmacmhoe",
+    "web_accessible_resources": [
+        "images/*",
+        "html/*"
+    ],
+    "background": {
+        "scripts": [
+            "js/libraries/jquery.min.js",
+            "js/libraries/moment.min.js",
+            "js/config.js",
+            "js/utils.js",
+            "js/store.js",
+            "js/api.js",
+            "js/models/settings.js",
+            "js/models/user.js",
+            "js/helpers.js",
+            "js/models/task.js",
+            "js/models/videoRanks.js",
+            "js/background.js"
+        ]
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://mail.google.com/*"
+            ],
+            "css": [
+                "css/gmail.css"
+            ],
+            "js": [
+                "/js/libraries/jquery.min.js",
+                "/js/libraries/moment.min.js",
+                "/js/libraries/jquery.blockUI.js",
+                "/js/config.js",
+                "/js/utils.js",
+                "/js/googleAccAge/finder.js"
+            ],
+            "run_at": "document_end"
+        },
+        {
+            "matches": [
+                "https://*/*"
+            ],
+            "js": [
+                "/js/libraries/jquery.min.js",
+                "/js/libraries/moment.min.js",
+                "/js/libraries/jquery.blockUI.js",
+                "/js/libraries/jquery.simulate.js",
+                "/js/libraries/chance.min.js",
+                "/js/helpers.js",
+                "/js/config.js",
+                "/js/utils.js",
+                "/js/store.js",
+                "/js/pr/pr.js"
+            ],
+            "run_at": "document_end"
+        },
+        {
+            "matches": [
+                "*://www.youtube.com/*",
+                "*://youtube.com/*"
+            ],
+            "js": [
+                "/js/libraries/jquery.min.js",
+                "/js/libraries/jquery.simulate.js",
+                "/js/libraries/jquery.modal.min.js",
+                "/js/libraries/chance.min.js",
+                "/js/libraries/ifvisible.js",
+                "/js/config.js",
+                "/js/utils.js",
+                "/js/store.js",
+                "/js/api.js",
+                "/js/models/settings.js",
+                "/js/models/user.js",
+                "/js/helpers.js",
+                "/js/models/task.js",
+                "/js/ehPopup.js",
+                "/js/youtube/youtube.js",
+                "/js/youtube/searchHelper.js",
+                "/js/youtube/videoTracker.js",
+                "/js/youtube/verificationChecker.js"
+            ],
+            "css": [
+                "/css/jquery.modal.min.css",
+                "/css/ehPopup.css",
+                "/css/ytTracker.css"
+            ],
+            "run_at": "document_end"
+        },
+        {
+            "matches": [
+                "*://www.google.com/*",
+                "*://google.com/*"
+            ],
+            "js": [
+                "/js/libraries/jquery.min.js",
+                "/js/libraries/jquery.simulate.js",
+                "/js/libraries/jquery.modal.min.js",
+                "/js/libraries/chance.min.js",
+                "/js/config.js",
+                "/js/utils.js",
+                "/js/store.js",
+                "/js/api.js",
+                "/js/models/settings.js",
+                "/js/models/user.js",
+                "/js/helpers.js",
+                "/js/models/task.js",
+                "/js/ehPopup.js",
+                "/js/youtube/googleSearchHelper.js"
+            ],
+            "css": [
+                "/css/jquery.modal.min.css",
+                "/css/ehPopup.css",
+                "/css/ytTracker.css"
+            ],
+            "run_at": "document_end"
+        },
+        {
+            "matches": [
+                "*://engagedhits.com/user/*"
+            ],
+            "js": [
+                "/js/libraries/jquery.min.js",
+                "/js/libraries/moment.min.js",
+                "/js/config.js",
+                "/js/utils.js",
+                "/js/googleAccAge/supplier.js"
+            ],
+            "run_at": "document_end"
+        },
+        {
+            "matches": [
+                "*://reddit.com/*",
+                "*://www.reddit.com/*",
+                "*://facebook.com/*",
+                "*://www.facebook.com/*",
+                "*://twitter.com/*",
+                "*://www.twitter.com/*"
+            ],
+            "js": [
+                "/js/libraries/jquery.min.js",
+                "/js/libraries/jquery.modal.min.js",
+                "/js/libraries/jquery.simulate.js",
+                "/js/config.js",
+                "/js/utils.js",
+                "/js/store.js",
+                "/js/api.js",
+                "/js/models/settings.js",
+                "/js/models/user.js",
+                "/js/models/task.js",
+                "/js/ehPopup.js",
+                "/js/helpers.js",
+                "/js/store.js"
+            ],
+            "css": [
+                "/css/jquery.modal.min.css",
+                "/css/ehPopup.css"
+            ],
+            "run_at": "document_end"
+        },
+        {
+            "matches": [
+                "*://reddit.com/*",
+                "*://www.reddit.com/*"
+            ],
+            "js": [
+                "/js/reddit/reddit.js"
+            ],
+            "run_at": "document_end"
+        },
+        {
+            "matches": [
+                "*://facebook.com/*",
+                "*://www.facebook.com/*"
+            ],
+            "js": [
+                "/js/facebook/facebook.js"
+            ],
+            "run_at": "document_end"
+        },
+        {
+            "matches": [
+                "*://twitter.com/*",
+                "*://www.twitter.com/*"
+            ],
+            "js": [
+                "/js/twitter/twitter.js"
+            ],
+            "run_at": "document_end"
+        }
+    ],
+    "permissions": [
+        "tabs",
+        "notifications",
+        "unlimitedStorage",
+        "storage",
+        "activeTab",
+        "webRequest",
+        "webNavigation",
+        "<all_urls>"
+    ]
+}

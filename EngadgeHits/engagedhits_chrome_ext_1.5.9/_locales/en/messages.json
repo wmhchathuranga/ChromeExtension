@@ -1,0 +1,350 @@
+{
+    "extDesc": {
+        "message": "Engaged Hits - enabling you to track traffic"
+    },
+    "extName": {
+        "message": "Engaged Hits"
+    },
+    "extShortName": {
+        "message": "Engaged Hits"
+    },
+    "pleaseWait": {
+        "message": "Please wait...!"
+    },
+    "ytTask_directVisitDesc": {
+        "message": "Copy and paste this URL in browser address bar to watch video"
+    },
+    "ytTask_thirdPartyVisitDesc": {
+        "message": "Copy and paste this url in your Chrome address bar and then the video will begin. Do NOT paste this url in the Youtube search bar."
+    },
+    "ytTask_searchVisitDesc": {
+        "message": "Open <a href='https://youtube.com' target='_blank'>youtube.com</a> and copy and paste the keyword you see below and then click on the Youtube search icon. Our extension will automatically scroll to find the video for you.",
+        "placeholders": {
+            "videoTitle": {
+                "content": "$1"
+            }
+        }
+    },
+    "ytTask_watchVideo": {
+        "message": "Watch video till $hours$ $minutes$ $seconds$",
+        "placeholders": {
+            "hours": {
+                "content": "$1"
+            },
+            "minutes": {
+                "content": "$2"
+            },
+            "seconds": {
+                "content": "$3"
+            }
+        }
+    },
+    "ytTask_likeVideo": {
+        "message": "Like the video"
+    },
+    "ytTask_dislikeVideo": {
+        "message": "Dislike the video"
+    },
+    "ytTask_subscribeChannel": {
+        "message": "Subscribe to channel"
+    },
+    "ytTask_enableNotifications": {
+        "message": "Enable All notifications"
+    },
+    "ytTask_postComment": {
+        "message": "Post this comment"
+    },
+    "ytTask_likeComment": {
+        "message": "Like this comment"
+    },
+    "ytTask_replyToPinned": {
+        "message": "Reply this to pinned comment"
+    },
+    "timeLeft": {
+        "message": "Time Left"
+    },
+    "ytVidSeekedAlert": {
+        "message": "You cannot skip video. Resuming from last recorded play time."
+    },
+    "ytVidChangedAlert": {
+        "message": "Looks like you changed video before completing task. Please restart the task again."
+    },
+    "ytIncorrectVideo": {
+        "message": "Looks like you are watching incorrect video. Please refer to task information for correct video URL."
+    },
+    "ytIncorrectSearchVideoSelected": {
+        "message": "Looks like you are watching incorrect video. Please select video highlighed in search results."
+    },
+    "ytVideoIncorrectCommentPosted": {
+        "message": "Incorrect comment posted. Please refer to task information for correct comment text."
+    },
+    "ytVideoIncorrectReplyPosted": {
+        "message": "Incorrect reply posted. Please refer to task information for correct reply text."
+    },
+    "ytVideoTaskCompleted": {
+        "message": "Task completed. To continue, close this tab and then click on our extension icon for your next task."
+    },
+    "ytVideoSearchTaskCompleted": {
+        "message": "Task completed. Click on our extension icon for your next task."
+    },
+    "ytVideoEmConvCompleted": {
+        "message": "Success! Your account will be credited shortly. To continue, click on the OK button below and then click on our extension icon for your next task."
+    },
+    "version": {
+        "message": "Version"
+    },
+    "hours": {
+        "message": "$hours$ hours",
+        "placeholders": {
+            "hours": {
+                "content": "$1"
+            }
+        }
+    },
+    "minutes": {
+        "message": "$1 minutes",
+        "placeholders": {
+            "minutes": {
+                "content": "$1"
+            }
+        }
+    },
+    "seconds": {
+        "message": "$1 seconds",
+        "placeholders": {
+            "seconds": {
+                "content": "$1"
+            }
+        }
+    },
+    "tasksInfoHeading": {
+        "message": "Here is your task information"
+    },
+    "loginInWithGoogle": {
+        "message": "Log In with Google"
+    },
+    "copy": {
+        "message": "Copy"
+    },
+    "OK": {
+        "message": "OK"
+    },
+    "copied": {
+        "message": "Copied..!"
+    },
+    "dashboard": {
+        "message": "Dashboard"
+    },
+    "logout": {
+        "message": "Log out"
+    },
+    "earnMoney": {
+        "message": "Earn Money"
+    },
+    "earnPoints": {
+        "message": "Earn Advertising Points"
+    },
+    "earnPointsShort": {
+        "message": "Earn Points"
+    },
+    "stuckQue": {
+        "message": "Stuck? Click to skip this task"
+    },
+    "switchEarnType": {
+        "message": "Select which option you want and when it auto-restarts on the next cycle it will choose that option. If you don't change, it will continue on your previous selection."
+    },
+    "currentEarnType": {
+        "message": "On the next cycle you will be earning "
+    },
+    "msgLoginToGetStarted": {
+        "message": "Please login to get started"
+    },
+    "msgGAContinue": {
+        "message": "Please enter the code from your Google Authenticator. <a href='$url$' target='_blank'>Click here</a> if you don't have it.",
+        "placeholders": {
+            "url": {
+                "content": "$1"
+            }
+        }
+    },
+    "msgCaptchaContinue": {
+        "message": "Please solve the captcha to continue"
+    },
+    "msgErrCopyText": {
+        "message": "Oops..! Cannot copy for some reason. Please copy manually"
+    },
+    "msgNoTaskInfo": {
+        "message": "You have hit completed today's campaigns. Every 24 hours campaigns renew so the longest you'll have to wait is 24 hours."
+    },
+    "msgTimeoutUser": {
+        "message": "Tasks limit for this account is reached."
+    },
+    "msgTimeoutIp": {
+        "message": "Tasks limit for this ip is reached."
+    },
+    "msgTimeoutPaidTasks": {
+        "message": "You have hit today's cap for paid campaigns. Once the countdown clock reaches zero you may continue. In the meantime if you wish to earn advertising points, you may click the blue button below."
+    },
+    "msgFailedToMarkTaskComplete": {
+        "message": "Something went wrong and we were not able to mark your task complete"
+    },
+    "msgUnauthorized": {
+        "message": "Session expired or unauthorized attempt"
+    },
+    "msgSomethingWentWrong": {
+        "message": "Something went wrong"
+    },
+    "msgAdBlockerNotAllowed": {
+        "message": "We detected AD blocker installed on this browser. Please disable or remove it in order to complete task."
+    },
+    "msgIncorrectThirdPartyURL": {
+        "message": "We cannot verify that you navigated to this video via third party URL <strong>$url$</strong> asked in task information",
+        "placeholders": {
+            "url": {
+                "content": "$1"
+            }
+        }
+    },
+    "msgSearchingVideo": {
+        "message": "Hold on..! Searching for video. It may take up to a minute"
+    },
+    "msgLikeVideoHightlight": {
+        "message": "Click here to like this video"
+    },
+    "msgDislikeVideoHightlight": {
+        "message": "Click here to dislike this video"
+    },
+    "msgSubscribeVideoHightlight": {
+        "message": "Click here to subscribe to this channel"
+    },
+    "msgLikeCommentHightlight": {
+        "message": "Like this comment"
+    },
+    "msgPostCommentHightlight": {
+        "message": "Post the comment same as asked"
+    },
+    "msgClickOnThisVideo": {
+        "message": "Click on this video"
+    },
+    "msgSkipAdHightlight": {
+        "message": "Click here to skip ad"
+    },
+    "msgCantFindVideoInSearchResults": {
+        "message": "Cannot find video in top $topCount$ search results. Click on OK button to watch video directly.",
+        "placeholders": {
+            "topCount": {
+                "content": "$1"
+            }
+        }
+    },
+    "msgNoVideoVideoFound": {
+        "message": "Cannot find video. Click on OK button to watch video directly."
+    },
+    "cheaterAlertMessage1": {
+        "message": "You are not allowed to unsubscribe to channels that you already subscribed using Engaged Hits. <span class=\"eh-danger-text\">You will be banned</span> if you don't follow the rules as we can track this."
+    },
+    "cheaterAlertMessage2": {
+        "message": "This is your 2nd warning! You were warned already about unsubscribing to channels that you already subscribe with Engaged Hits. <span class=\"eh-danger-text\">You will be banned</span> if you unsubscribe."
+    },
+    "cheaterAlertMessage3": {
+        "message": "<span class=\"eh-danger-text\">You are now banned</span> from using Engaged Hits. You were given 2 warnings already. You didn't play by the rules."
+    },
+    "tabChangedNotificationTitle": {
+        "message": "Engaged Hits is on pause"
+    },
+    "taskTabNotInFocusNotificationMessage": {
+        "message": "EH is on pause until you go back to the Youtube tab. The video must be in focus."
+    },
+    "multipleYTTabsNotificationMessage": {
+        "message": "You can only run Engaged Hits in one tab. Please close the other YouTube tabs."
+    },
+    "msgVideoAlreadyTrackedInSameTab": {
+        "message": "A video has already been tracked in this browser tab. Please refer to task information and try to watch video in new tab."
+    },
+    "msgVideoTrackingStopped": {
+        "message": "Video tracking has been stopped. You will need restart task."
+    },
+    "msgVideoRankTooLow": {
+        "message": "We found that video is ranked too low. Please click on OK button to watch video directly."
+    },
+    "msgMaintenanceON": {
+        "message": "System is under maintenance. Please visit later."
+    },
+    "msgDownloadUpdatedExt": {
+        "message": "We have updated our Chrome extension. You must update to the new version before continuing. If you need a reminder on how to install, <a href='$downloadExtUrl$' target='_blank'>click here.</a>",
+        "placeholders": {
+            "downloadExtUrl": {
+                "content": "$1"
+            }
+        }
+    },
+    "downloadUpdatedExt": {
+        "message": "Download Updated Extension"
+    },
+    "msgProxyNotAllowed": {
+        "message": "You are using an IP that's been identified as either a vpn, proxy, database IP or IP that's not trusted. We use a 3rd party service and this is automatic. There is nothing we can do about it. Please see if you can use another IP and if you are in fact using a proxy or VPN, please stop."
+    },
+    "msgTestAutomaticMode": {
+        "message": "You may run again once the countdown reaches zero."
+    },
+    "msgAutomaticMode": {
+        "message": "The extension will start again playing videos when the timer reaches 0."
+    },
+    "msgNeedToCheckAccountVerification": {
+        "message": "If you want to continue using Engaged Hits we need to check your youtube account phone-verification status. This takes less than a minute."
+    },
+    "msgNeedToVerifyAccount": {
+        "message": "Your account is not phone verified. To continue using Engaged Hits to avoid spam and abuse you must verify your account. <a href='https://engagedhits.com/public/documents/How%20to%20phone%20verify%20your%20YouTube%20account.pdf' target='_blank'>Click here</a> for step by step screenshot instructions ."
+    },
+    "msgStartChecking": {
+        "message": "Start checking"
+    },
+    "msgVerificationSuccess": {
+        "message": "Your account successfully checked. You may close this window and run the extension again."
+    },
+    "msgAutomaticModeProgress": {
+        "message": "Automated watch will end after <strong>$videosCount$</strong> videos.",
+        "placeholders": {
+            "videosCount": {
+                "content": "$1"
+            }
+        }
+    },
+    "msgAutomaticModeOptions":{
+        "message": "Stuck? <a href='#' id='restart-auto-mode'>Restart the automation</a><br> or <a href='#' id='skip-task'>skip the task</a>."
+    },
+    "msgAutomaticModeEnd": {
+        "message": "You may continue viewing more videos in $timeout$ minutes.",
+        "placeholders": {
+            "timeout": {
+                "content": "$1"
+            }
+        }
+    },
+    "msgAlertTimeoutUser": {
+        "message": "Tasks limit for user is reached."
+    },
+    "msgAlertTimeoutIp": {
+        "message": "You have watched all of today's campaigns. Please come back tomorrow to continue watching."
+    },
+    "msgPleaseLoginOn": {
+        "message": "Please login on $site$ and restart the extension to continue using Engaged Hits.",
+        "placeholders": {
+            "site": {
+                "content": "$1"
+            }
+        }
+    },
+    "msgRunManualModeBtn": {
+        "message": "Click to revert to manual mode"
+    },
+    "msgRunAutomaticModeBtn": {
+        "message": "Back to auto mode"
+    },
+    "speedUpAlert": {
+        "message": "You will NOT get credit for videos until you REMOVE the extension that is speeding up the videos."
+    },
+    "speedUpSubmitBtn": {
+        "message": "I understand and have removed the speeding up extension"
+    }
+}

@@ -1,0 +1,7 @@
+.blockUI .logoWrap > img {
+    width: 100px;
+}
+
+.blockUI .waitMsg {
+    margin-top: 10px;
+}

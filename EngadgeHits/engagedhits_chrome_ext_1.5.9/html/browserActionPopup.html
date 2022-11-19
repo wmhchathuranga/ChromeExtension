@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title data-locale="extName"></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+    <style type="text/css">
+        body > header, 
+        body > section, 
+        body > footer {
+            width: 300px;
+        }
+
+        body {
+            margin-bottom: 20px;
+            min-height: 300px;
+            font-family: 'Open Sans', 'Arial';
+            position: relative;
+        }
+
+        header {
+            text-align: center;
+            padding-top: 8px;
+            padding-bottom: 8px;
+        }
+
+        header img {
+            width: 100px;
+        }
+
+        header #menu {
+            border-top: 1px solid #dedede;
+            border-bottom: 1px solid #dedede;
+            padding: 3px;
+            margin-top: 5px;
+            font-size: 13px;
+            display: none;
+        }
+
+        header #menu a {
+            margin: 0px 3px;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 15px 0;
+        }
+
+        footer {
+            position: fixed;
+            bottom: 8px;
+            padding-top: 8px;
+            color: #999;
+            text-align: center;
+            font-size: 0.7rem;
+        }
+        .blockUI.blockMsg {
+            border-radius: 3px;
+            border: 0 !important;
+        }
+
+        .blockUI.blockMsg *:not(.fa):not(.fas) {
+            margin:  0;
+            font-weight: 500;
+        }
+
+        ol#tasksList {
+            padding-left: 1rem;
+        }
+
+        .tasks-info-heading {
+            font-weight: 600;
+        }
+
+        .btn-primary {
+          color: #fff;
+          background-color: #136BA7;
+          border-color: #136BA7; }
+          .btn-primary:hover {
+            color: #fff;
+            background-color: #0f5585;
+            border-color: #0e4e79; }
+          .btn-primary:focus, .btn-primary.focus {
+            box-shadow: 0 0 0 0 rgba(19, 107, 167, 0.5); }
+          .btn-primary.disabled, .btn-primary:disabled {
+            color: #fff;
+            background-color: #136BA7;
+            border-color: #136BA7; }
+          .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
+          .show > .btn-primary.dropdown-toggle {
+            color: #fff;
+            background-color: #0e4e79;
+            border-color: #0c466e; }
+            .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
+            .show > .btn-primary.dropdown-toggle:focus {
+              box-shadow: 0 0 0 0 rgba(19, 107, 167, 0.5); }
+
+        .btn-block-200 {
+            min-width: 200px;
+        }
+
+        .earn-money-progress .progress {
+            height: 25px;
+        }
+
+        .earn-money-progress .progress-info {
+            position: absolute; 
+            width: 100%; 
+            left: 0; 
+            right: auto; 
+            padding-top: 4px; 
+            font-size: 12px;
+        }
+
+        .earn-money-provider {
+            margin-top: -1rem;
+        }
+
+        .earn-money-provider .badge {
+            line-height: 1.5;
+            background-color: #136BA7;
+        }
+
+        .stuck-que, .am-stuck-que {
+            font-size: 12px;
+            color: #aaa;
+            cursor: pointer;
+        }
+        .muted-link{
+            font-size: 12px;
+            color: #aaa;
+            cursor: pointer;
+        }
+        .countdown{
+            font-size: 32px;
+            font-weight: bold;
+        }
+        .change-earntype-block {
+            margin-top: 12px;
+        }
+        .change-earntype-btns-block {
+            margin: 12px 0;
+        }
+    </style>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <img src="/images/logos/engagedhits.png" />
+        </div>
+        <div id="menu"></div>
+    </header>
+    <section id="main"></section>
+    <footer><span data-locale="version"></span>: <span id="version"></span></footer>
+    <script type="text/javascript" src="/js/libraries/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/libraries/jquery.blockUI.js"></script>
+    <script type="text/javascript" src="/js/libraries//jquery.countdown.min.js"></script>
+    <script type="text/javascript" src="/js/config.js"></script>
+    <script type="text/javascript" src="/js/utils.js"></script>
+    <script type="text/javascript" src="/js/store.js"></script>
+    <script type="text/javascript" src="/js/api.js"></script>
+    <script type="text/javascript" src="/js/models/settings.js"></script>
+    <script type="text/javascript" src="/js/models/user.js"></script>
+    <script type="text/javascript" src="/js/helpers.js"></script>
+    <script type="text/javascript" src="/js/models/task.js"></script>
+    <script type="text/javascript" src="/js/browserAction.js"></script>
+</body>
+</html>
